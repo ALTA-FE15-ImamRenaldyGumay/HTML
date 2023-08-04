@@ -12,11 +12,11 @@
     <link rel="stylesheet" href="assets/css/experience.css" />
   </head>
   <body>
-    <div class="container">
-      <nav class="navbar navbar-expand-sm ">
-        <div class="container-fluid">
+    <header>
+      <nav class="navbar navbar-expand-sm">
+        <div class="container">
           <a class="navbar-brand" href="#">
-            <img src="logo.png" alt="Avatar Logo"/>
+            <img src="assets/img/logo-ALTA.png" alt="Avatar Logo" />
           </a>
           <ul class="navbar-nav">
             <li class="nav-item">
@@ -34,12 +34,33 @@
           </ul>
         </div>
       </nav>
-      <h1>My First Bootstrap Page</h1>
-      <p>This part is inside a .container-fluid class.</p>
-      <p>
-        The .container-fluid class provides a full width container, spanning the
-        entire width of the viewport.
-      </p>
-    </div>
+    </header>
+
+    <main>
+      <div class="p-5" id="jumbotron">
+        <div class="container">
+          <h1>EXPERIENCE</h1> 
+        </div>
+      </div>
+      <div class="container mt-5">
+        <div class="card float-right col-4">
+          <div class="card-header">
+            <h2>FULL-STACK ENGINEER - ALTERRA ACADEMY</h2>
+            <p>May, 2019 - Present</p>
+          </div>
+          <div class="card-body">
+            <ul class="list">
+              <li>Write modern, performant, maintainable code for a diverse array of client and innternal project</li>
+              <li>Work with a variety of different language, platforms, frameworks, and content management systems such as Javascript, TypeScript, Gatsby, React, Craft, Wordpress, Prismic, and Netify</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card col-4">
+          <div class="card-header">Header</div>
+          <div class="card-body">Content</div> 
+          <div class="card-footer">Footer</div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
