@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "Muli-Regular";
+    src: url(../assets/Muli-Regular.ttf);
+}
+
+.container{
+    border: 2px;
+}
+
+.container .row button{
+    background-color: #F47522;
+    color: white;
+    border-radius: 40px;
+    height: 44px;
+    width: 150px;
+    border: 2px solid #F47522;
+}

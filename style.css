@@ -2,6 +2,17 @@
   font-family: "Muli-Bold";
   src: url(assets/Muli-Bold.ttf);
 }
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url(assets/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-Medium";
+  src: url(assets/Roboto-Medium.ttf);
+}
+
 body{
   margin: 0;
   padding: 0;
@@ -10,24 +21,19 @@ body{
 }
 
 header{
-  margin: 0;
-  padding: 10px;
-  background-color: #FFF;
-  overflow: hidden;
   position: fixed;
-  top: 0;
   width: 100%;
 }
 
 header .container{
-  
-  
+  /* width: 100%; */
+  margin: 0;
+  padding: 10px;
   /* height: 90px; */
-  
   display: flex;
   align-items: center;
   justify-content: space-around;
-  
+  background-color: #FFF;
 }
 
 nav ul{
@@ -70,9 +76,9 @@ nav ul li a :hover{
 }
 
 #home{
-  height: 100%;
+  /* height: 100%; */
   margin: 0;
-  padding: 2rem 1rem;
+  /* padding: 2rem 1rem; */
   background-image: url(assets/bg-img.png);
   background-size: cover;
 }
@@ -80,22 +86,39 @@ nav ul li a :hover{
 #home .row{
   /* margin: 10px;
   padding: 10px; */
+  padding-top: 160px;
+  padding-bottom: 194px;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 0 50px;
 }
 
-
-#about{
-  background-color: aquamarine;
+#home .row .tagline{
+  font-family: "Roboto-Medium";
+  color: #19345E;
 }
 
-#about .img-about-me img{
-  height: 100px;
-  width: 100px;
+#home .row .tagline .baris-1{
+  font-size: 25px;
+  /* text-align: left; */
+  /* height: 33px;
+  width: 164px; */
 }
 
-#contact{
-  background-color: green;
+#home .row .tagline h1{
+  /* height: 122px; */
+  /* width: 520px; */
+  font-size: 45px;
+}
+
+#home .tagline button {
+  height: 44px;
+  width: 150px;
+  color: white;
+  border: 2px;
+  border-radius: 40px;
+  font-family: "Roboto-Regular";
+  font-size: 16px;
+  background-color: #F47522;
 }
