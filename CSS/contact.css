@@ -3,15 +3,30 @@
     src: url(../assets/Muli-Regular.ttf);
 }
 
-.container{
+.container-lg{
     border: 2px;
 }
 
-.container .row button{
+.container-lg .row button{
     background-color: #F47522;
     color: white;
     border-radius: 40px;
     height: 44px;
     width: 150px;
     border: 2px solid #F47522;
+    text-decoration: none;
+}
+
+.row{
+    font-family: "Muli-Regular";
+    font-size: 20px;
+    color: #19345E;
+}
+
+.row h2{
+    font-size: 40px;
+}
+
+.row input, selected, textarea{
+    border: 2px solid #19345E;
 }
