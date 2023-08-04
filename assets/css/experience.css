@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "Muli-Bold";
+  src: url(../Muli-Bold.ttf);
+}
+body {
+  background-color: yellow;
+}
+
+.navbar {
+  max-width: 100%;
+  margin: 0;
+  padding: 10px;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li a {
+  font-family: "Muli-Bold";
+  font-size: 13px;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav-link .active {
+  color: #f47522;
+}
+/* .container {
+  width: 100%;
+  margin: 0;
+  padding: 10px;
+  position: sticky;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #fff;
+} */
+
+/* nav ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline;
+  justify-content: space-between;
+}
+
+
+
+
+
+nav ul li a :hover {
+  cursor: pointer;
+} */
